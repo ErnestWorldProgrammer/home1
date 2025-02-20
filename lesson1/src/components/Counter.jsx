@@ -6,11 +6,7 @@ import './Counter.css';
 function Counter() {
     const dispatch = useDispatch();
     const count = useSelector((state) => state.counter.value);
-    console.log("Счетчик загружен", count);
-
-
     return (
-
         <div className="block">
             <div className='blockTwo'>
             <h1>Счетчик: {count}</h1>
